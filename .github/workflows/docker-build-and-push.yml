@@ -7,6 +7,12 @@ on:
       - feature/*
 
 jobs:
+  check_repo_files:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: ls
+        run: ls
+
   push_to_registry:
     uses: TourmalineCore/home-github-workflows/.github/workflows/docker-build-and-push.yml@feature/add_context_for_build_workflow
     with:
