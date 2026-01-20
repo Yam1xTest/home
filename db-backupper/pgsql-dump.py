@@ -16,7 +16,7 @@ def main():
     else:
         raise Exception("No such file: '%s'" %(backup_filename))
 
-
+ 
 def upload_to_s3(backup_filename):
 
     s3 = boto3.client(
