@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "db-backupper"
+		},
+		{
+			"path": "s3-backupper"
 		}
 	],
 	"settings": {}
