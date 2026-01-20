@@ -1,4 +1,4 @@
-name: Publish Docker Image
+name: Publish DB Backupper Docker Image
 
 on:
   push:

@@ -1,4 +1,4 @@
-name: Publish Docker Image
+name: Publish S3 Backupper Docker Image
 
 on:
   push:
