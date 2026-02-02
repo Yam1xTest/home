@@ -27,7 +27,7 @@ npm run develop
 Running Strapi [Read here](https://docs.strapi.io/dev-docs/cli#strapi-start):
 ```
 npm run start
-```
+``` 
 
 Strapi will be available here: http://localhost:1337/admin
 
