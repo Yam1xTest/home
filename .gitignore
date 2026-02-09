@@ -1,137 +1,142 @@
+###########################################
+#                   CMS                   #
+###########################################
+
 ############################
 # OS X
 ############################
 
-.DS_Store
-.AppleDouble
-.LSOverride
-Icon
-.Spotlight-V100
-.Trashes
-._*
+cms/.DS_Store
+cms/.AppleDouble
+cms/.LSOverride
+cms/Icon
+cms/.Spotlight-V100
+cms/.Trashes
+cms/._*
 
 
 ############################
 # Linux
 ############################
 
-*~
+cms/*~
 
 
 ############################
 # Windows
 ############################
 
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-*.cab
-*.msi
-*.msm
-*.msp
+cms/Thumbs.db
+cms/ehthumbs.db
+cms/Desktop.ini
+cms/$RECYCLE.BIN/
+cms/*.cab
+cms/*.msi
+cms/*.msm
+cms/*.msp
 
 
 ############################
 # Packages
 ############################
 
-*.7z
-*.csv
-*.dat
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.seed
-*.so
-*.swo
-*.swp
-*.swn
-*.swm
-*.out
-*.pid
+cms/*.7z
+cms/*.csv
+cms/*.dat
+cms/*.dmg
+cms/*.gz
+cms/*.iso
+cms/*.jar
+cms/*.rar
+cms/*.tar
+cms/*.zip
+cms/*.com
+cms/*.class
+cms/*.dll
+cms/*.exe
+cms/*.o
+cms/*.seed
+cms/*.so
+cms/*.swo
+cms/*.swp
+cms/*.swn
+cms/*.swm
+cms/*.out
+cms/*.pid
 
 
 ############################
 # Logs and databases
 ############################
 
-.tmp
-*.log
-*.sql
-*.sqlite
-*.sqlite3
+cms/.tmp
+cms/*.log
+cms/*.sql
+cms/*.sqlite
+cms/*.sqlite3
 
 
 ############################
 # Misc.
 ############################
 
-*#
-ssl
-.idea
-nbproject
-public/uploads/*
-!public/uploads/.gitkeep
+cms/*#
+cms/ssl
+cms/.idea
+cms/nbproject
+cms/public/uploads/*
+!cms/public/uploads/.gitkeep
 
 ############################
 # Node.js
 ############################
 
-lib-cov
-lcov.info
-pids
-logs
-results
-node_modules
-.node_history
+cms/lib-cov
+cms/lcov.info
+cms/pids
+cms/logs
+cms/results
+cms/node_modules
+cms/.node_history
 
 ############################
 # Package managers
 ############################
 
-.yarn/*
-!.yarn/cache
-!.yarn/unplugged
-!.yarn/patches
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
-.pnp.*
-yarn-error.log
+cms/.yarn/*
+!cms/.yarn/cache
+!cms/.yarn/unplugged
+!cms/.yarn/patches
+!cms/.yarn/releases
+!cms/.yarn/sdks
+!cms/.yarn/versions
+cms/.pnp.*
+cms/yarn-error.log
 
 ############################
 # Tests
 ############################
 
-coverage
+cms/coverage
 
 ############################
 # Strapi
 ############################
 
-.env
-license.txt
-exports
-.strapi
-dist
-build
-.strapi-updater.json
-.strapi-cloud.json
+cms/.env
+cms/license.txt
+cms/exports
+cms/.strapi
+cms/dist
+cms/build
+cms/.strapi-updater.json
+cms/.strapi-cloud.json
 
 # Playwright
-/test-results/
-/playwright-report/
-/blob-report/
-/playwright/.cache/
-/playwright-report/playwright-test-results
-/playwright-tests/playwright-test-results
+cms/test-results/
+cms/playwright-report/
+cms/blob-report/
+cms/playwright/.cache/
+cms/playwright-report/playwright-test-results
+cms/playwright-tests/playwright-test-results
+
