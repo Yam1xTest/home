@@ -140,3 +140,52 @@ cms/playwright/.cache/
 cms/playwright-report/playwright-test-results
 cms/playwright-tests/playwright-test-results
 
+###########################################
+#                    UI                   #
+###########################################
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+ui/node_modules
+ui/.pnp
+ui/.pnp.js
+
+# testing
+ui/coverage
+
+# next.js
+ui/.next/
+ui/out/
+
+# production
+ui/build
+
+# misc
+ui/.DS_Store
+ui/*.pem
+
+# debug
+ui/npm-debug.log*
+ui/yarn-debug.log*
+ui/yarn-error.log*
+ui/.pnpm-debug.log*
+
+# local env files
+ui/.env*.local
+ui/.env
+
+# vercel
+ui/.vercel
+
+# typescript
+ui/*.tsbuildinfo
+
+# Playwright
+ui/playwright-test-results/
+ui/playwright-report/
+
+# Sitemap and robots
+ui/robots.txt
+ui/sitemap.xml
+ui/sitemap-*.xml
