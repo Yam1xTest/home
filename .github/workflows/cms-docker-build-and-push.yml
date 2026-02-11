@@ -6,7 +6,7 @@ on:
 
 jobs:
   push_to_registry:
-    uses: TourmalineCore/home-github-workflows/.github/workflows/docker-build-and-push.yml@feature/add_context_and_image_name_for_build_workflow
+    uses: TourmalineCore/home-github-workflows/.github/workflows/.reusable-docker-build-and-push.yml@feature/add_reusable_workflows
     with:
       context: ./cms
       image-name: home-cms
