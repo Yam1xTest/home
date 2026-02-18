@@ -14,7 +14,7 @@ To successfully run Strapi locally, run the command:
 ```
 docker-compose --profile db-and-minio-s3 up -d
 ```
-
+wdw
 minio-s3 interface will be available here: http://localhost:9011 
 - `username`: *admin*
 - `password`: *rootPassword*
