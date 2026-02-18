@@ -6,7 +6,7 @@
 Add an .env file base on .env.example.
 
 Install dependencies:
-```
+```ww
 npm ci
 ``` 
 
