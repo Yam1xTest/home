@@ -1,7 +1,7 @@
 import subprocess
 import os
 
-if (os.getenv("SYNCHRONIZER_ENABLED") == "true"):
+if (os.getenv("SYNCHRONIZER_ENABLED") == "testonly"):
     # By default subprocess.run doesn't throw error if the command was failed due runtime and pod completes without any errors
     # with check = True subprocess.run will throw error and pod will be completed with error
     subprocess.run(['git', 'clone', f'https://github.com/{os.getenv("ENV_REPOSITORY")}.git'], check = True)
