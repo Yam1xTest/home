@@ -85,7 +85,7 @@ jobs:
       - name: Approve PR
         run: gh pr review $BRANCH_NAME -a
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.HOME_ENV_SYNC_TRIGGER_TOKEN }}
 
       - name: Merge PR
         run: gh pr merge $BRANCH_NAME --merge --subject "${{ env.PR_TITLE }}" -F commit_message.txt
