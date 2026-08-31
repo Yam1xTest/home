@@ -21,7 +21,7 @@ jobs:
     uses: ./.github/workflows/prod-env-sync-services-versions.yml
     with:
       # path-to-values is used to define where the values files is stored
-      path-to-values: deploy/values-ui.yaml.gotmpl
+      path-to-values: prod-env/deploy/values-ui.yaml.gotmpl
       # service-name is the name of the subfolder where the service is stored in the home repo
       service-name: ui
     secrets: inherit
