@@ -9,7 +9,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - [VSCode](https://code.visualstudio.com/)
 - [Dev Containers Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
-### If you develop without Dev containers
+### If you develop without Dev cont ainers
 
 - [Node.js](https://nodejs.org/en) (we used version 20.18.0, but older version should also work. Ideally, install them with `nvm` to easily switch between Node.js versions if needed)
 - [VSCode](https://code.visualstudio.com/) (it is optional, you can use any IDE, but VSCode has predefined formatting on save according to the project's linting rules)
