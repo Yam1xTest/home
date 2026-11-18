@@ -48,7 +48,7 @@ jobs:
       needs.detect-changed-services.outputs.ui == 'true' &&
       ((inputs.is-workflow-call &&
       github.workflow == 'Run Home Playwright E2E Tests') ||
-      github.event_name == 'workflow_call')
+      github.event_name == 'push')
     uses: ./.github/workflows/.reusable-docker-build-and-push.yml
     with:
       context: ./ui
