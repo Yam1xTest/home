@@ -46,9 +46,8 @@ jobs:
     # And on workflow_call event from playwright-e2e-tests-orchestrator.yml
     if: |
       needs.detect-changed-services.outputs.ui == 'true' &&
-      ((inputs.is-workflow-call &&
-      github.workflow == 'Run Home Playwright E2E Tests') ||
-      github.event_name == 'push')
+      ((inputs.is-workflow-call && github.workflow == 'Run Home Playwright E2E Tests') ||
+      github.event_name == 'push' && github.workflow == 'Publish Docker Image')
     uses: ./.github/workflows/.reusable-docker-build-and-push.yml
     with:
       context: ./ui
