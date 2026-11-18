@@ -4,6 +4,8 @@ on:
   push:
     branches:
       master
+    paths:
+      - 'ui/**'
   workflow_call:
     inputs:
       is-workflow-call:
